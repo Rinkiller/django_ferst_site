@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% block title %}{{title}}{% endblock %}
+{% block content %}
+    <center>
+        <h2>Клиент {{name}} имеет следующие активные заказы</h2>
+        {% if orders %}
+            <table class="table">
+                    <thead><tr><th scope="col">Продукт</th><th scope="col">Размер заказа</th><th scope="col">Дата заказа</th></tr></thead>
+                    <tbody>
+                        
+                        {% for order in orders %}
+                            <tr><td>{{ order.product.name }}</td><td>{{ order.total_order }}</td><td>{{ order.date }}</td></tr>
+                        {% endfor %}
+
+                    </tbody>
+            </table>
+        {% else %}
+        <p> У данного клиента нет активных заказов</p>
+        {% endif %}
+        <br>
+        <a href="{% url 'index' %}">На главную</a>
+    </center>
+{% endblock %}

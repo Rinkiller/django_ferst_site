@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block title %}Заказы клиента {{ name }}{% endblock %}
+{% block content %}
+    <center><h1 style="color: red;">Клиент {{ name }} за последние {{days}}дня сделал следующие покупки</h1></center>
+    <ul>
+        {% for item in products %}
+        <li>{{ item }}</li>
+        {% endfor %}
+    </ul>
+
+    
+{% endblock %}

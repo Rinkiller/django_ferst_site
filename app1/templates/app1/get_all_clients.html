@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block title %}{{title}}{% endblock %}
+{% block content %}
+    <center>
+        <h2>В базе данных есть записи о следующих клиентах</h2>
+        <table class="table">
+                <thead><tr><th scope="col">Имя клиента</th><th scope="col">почта</th><th scope="col">номер телафона</th><th scope="col">Домашний адрес</th></tr></thead>
+                <tbody>
+                    
+                    {% for client in clients %}
+                        <tr><td>{{ client.name }}</td><td>{{ client.mail }}</td><td>{{ client.telNumber }}</td><td>{{ client.adress }}</td></tr>
+                    {% endfor %}
+
+                </tbody>
+        </table>
+        <br>
+        <a href="{% url 'index' %}">На главную</a>
+    </center>
+{% endblock %}

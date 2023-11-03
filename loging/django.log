@@ -1,0 +1,1250 @@
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 13
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3175
+"GET /coin/ HTTP/1.1" 200 8
+"GET /coin/ HTTP/1.1" 200 10
+"GET / HTTP/1.1" 200 13
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 103
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 120
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 120
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 138
+Watching for file changes with StatReloader
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 138
+"GET / HTTP/1.1" 200 138
+Not Found: /gh
+"GET /gh HTTP/1.1" 404 3152
+Not Found: /app1/
+"GET /app1/ HTTP/1.1" 404 3161
+Not Found: /app1/addprod/
+"GET /app1/addprod/ HTTP/1.1" 404 3185
+Internal Server Error: /addprod/
+Traceback (most recent call last):
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view app1.views.product_addform didn't return an HttpResponse object. It returned None instead.
+"GET /addprod/ HTTP/1.1" 500 66793
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 138
+Internal Server Error: /add_new_product/
+Traceback (most recent call last):
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view app1.views.product_addform didn't return an HttpResponse object. It returned None instead.
+"GET /add_new_product/ HTTP/1.1" 500 66865
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 138
+Not Found: /g
+"GET /g HTTP/1.1" 404 3157
+Internal Server Error: /add_new_product/
+Traceback (most recent call last):
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view app1.views.product_addform didn't return an HttpResponse object. It returned None instead.
+"GET /add_new_product/ HTTP/1.1" 500 66865
+Internal Server Error: /add_new_product/
+Traceback (most recent call last):
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view app1.views.product_addform didn't return an HttpResponse object. It returned None instead.
+"GET /add_new_product/ HTTP/1.1" 500 67002
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 138
+Not Found: /add
+"GET /add HTTP/1.1" 404 3163
+Internal Server Error: /add_new_product/
+Traceback (most recent call last):
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view app1.views.product_addform didn't return an HttpResponse object. It returned None instead.
+"GET /add_new_product/ HTTP/1.1" 500 66865
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\forms.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 138
+Internal Server Error: /add_new_product/
+Traceback (most recent call last):
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view app1.views.product_addform didn't return an HttpResponse object. It returned None instead.
+"GET /add_new_product/ HTTP/1.1" 500 67139
+Internal Server Error: /add_new_product/
+Traceback (most recent call last):
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view app1.views.product_addform didn't return an HttpResponse object. It returned None instead.
+"GET /add_new_product/ HTTP/1.1" 500 66865
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\forms.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 138
+Internal Server Error: /addprod/
+Traceback (most recent call last):
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view app1.views.product_addform didn't return an HttpResponse object. It returned None instead.
+"GET /addprod/ HTTP/1.1" 500 66793
+"GET / HTTP/1.1" 200 138
+Internal Server Error: /addprod/
+Traceback (most recent call last):
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view app1.views.product_addform didn't return an HttpResponse object. It returned None instead.
+"GET /addprod/ HTTP/1.1" 500 66793
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /addprod/
+Traceback (most recent call last):
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\views.py", line 55, in product_addform
+    return render(request, 'app1/add_new_product.html', {'form':form})
+UnboundLocalError: local variable 'form' referenced before assignment
+"GET /addprod/ HTTP/1.1" 500 65110
+"GET / HTTP/1.1" 200 138
+"GET /addprod HTTP/1.1" 301 0
+Internal Server Error: /addprod/
+Traceback (most recent call last):
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\views.py", line 55, in product_addform
+    return render(request, 'app1/add_new_product.html', {'form':form})
+UnboundLocalError: local variable 'form' referenced before assignment
+"GET /addprod/ HTTP/1.1" 500 64973
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /addprod/ HTTP/1.1" 200 1292
+Internal Server Error: /addprod/
+Traceback (most recent call last):
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\views.py", line 44, in product_addform
+    title = form.cleaned_data['title']
+KeyError: 'title'
+"POST /addprod/ HTTP/1.1" 500 67659
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 138
+"GET /addprod/ HTTP/1.1" 200 1269
+"POST /addprod/ HTTP/1.1" 200 1331
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 138
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3179
+"GET /get-user-prod/2/4 HTTP/1.1" 200 1518
+"GET /addprod/ HTTP/1.1" 200 2425
+"GET / HTTP/1.1" 200 138
+"GET / HTTP/1.1" 200 138
+"GET / HTTP/1.1" 200 138
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\views.py", line 13, in index
+    return render(request, "app1/index.html", context)
+NameError: name 'context' is not defined
+"GET / HTTP/1.1" 500 65734
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 1699
+"GET /about HTTP/1.1" 301 0
+"GET /about/ HTTP/1.1" 200 8
+"GET / HTTP/1.1" 200 2161
+"GET / HTTP/1.1" 200 2165
+"GET / HTTP/1.1" 200 2189
+Not Found: /add_new_product
+"GET /add_new_product HTTP/1.1" 404 3191
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2189
+Not Found: /product_addform
+"GET /product_addform HTTP/1.1" 404 3191
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /product_addform
+"GET /product_addform HTTP/1.1" 404 3188
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2188
+Not Found: /productaddform
+"GET /productaddform HTTP/1.1" 404 3185
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /coin/ HTTP/1.1" 200 8
+"GET /get-coin/ HTTP/1.1" 200 38
+"GET /get-coin/ HTTP/1.1" 200 38
+"GET /coin/ HTTP/1.1" 200 10
+"GET /coin/ HTTP/1.1" 200 10
+"GET /coin/ HTTP/1.1" 200 10
+"GET /coin/ HTTP/1.1" 200 8
+"GET /coin/ HTTP/1.1" 200 10
+"GET /coin/ HTTP/1.1" 200 8
+"GET /get-coin/ HTTP/1.1" 200 52
+"GET /addprod/ HTTP/1.1" 200 2436
+"GET /addprod/ HTTP/1.1" 200 2436
+"GET / HTTP/1.1" 200 2188
+"GET / HTTP/1.1" 200 2183
+"GET /addprod/ HTTP/1.1" 200 2436
+"GET /get-user-prod/2/4 HTTP/1.1" 200 1529
+"GET / HTTP/1.1" 200 2200
+"GET /get-user-prod/2/4 HTTP/1.1" 200 1529
+"GET /about/ HTTP/1.1" 200 8
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2200
+"GET /about/ HTTP/1.1" 200 1796
+"GET /about/ HTTP/1.1" 200 1797
+"GET /about/ HTTP/1.1" 200 1831
+Not Found: /about/index
+"GET /about/index HTTP/1.1" 404 3178
+Not Found: /about/index
+"GET /about/index HTTP/1.1" 404 3178
+Not Found: /about/index
+"GET /about/index HTTP/1.1" 404 3178
+"GET /about/ HTTP/1.1" 200 1838
+Not Found: /about/index.html
+"GET /about/index.html HTTP/1.1" 404 3193
+"GET /about/ HTTP/1.1" 200 1869
+"GET /about/ HTTP/1.1" 200 1869
+"GET /about/ HTTP/1.1" 200 1869
+"GET /about/ HTTP/1.1" 200 1878
+"GET /about/ HTTP/1.1" 200 1878
+"GET /about/ HTTP/1.1" 200 1878
+"GET /about/ HTTP/1.1" 200 1878
+"GET / HTTP/1.1" 200 2200
+Internal Server Error: /about/
+Traceback (most recent call last):
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\views.py", line 16, in about
+    return render(request, "app1/About_us.html")
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for '' not found. '' is not a valid view function or pattern name.
+"GET /about/ HTTP/1.1" 500 155983
+"GET / HTTP/1.1" 200 2200
+"GET / HTTP/1.1" 200 2200
+Internal Server Error: /about/
+Traceback (most recent call last):
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\views.py", line 16, in about
+    return render(request, "app1/About_us.html")
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for '' not found. '' is not a valid view function or pattern name.
+"GET /about/ HTTP/1.1" 500 155943
+Internal Server Error: /about/
+Traceback (most recent call last):
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\views.py", line 16, in about
+    return render(request, "app1/About_us.html")
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for '' not found. '' is not a valid view function or pattern name.
+"GET /about/ HTTP/1.1" 500 155895
+"GET / HTTP/1.1" 200 2200
+Internal Server Error: /about/
+Traceback (most recent call last):
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\views.py", line 16, in about
+    return render(request, "app1/About_us.html")
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for '' not found. '' is not a valid view function or pattern name.
+"GET /about/ HTTP/1.1" 500 155935
+"GET /about/ HTTP/1.1" 200 1837
+Not Found: /about/.index.html
+"GET /about/.index.html HTTP/1.1" 404 3196
+"GET / HTTP/1.1" 200 2205
+"GET / HTTP/1.1" 200 2205
+"GET /about/ HTTP/1.1" 200 1788
+"GET /about/ HTTP/1.1" 200 1788
+Watching for file changes with StatReloader
+"GET /about/ HTTP/1.1" 200 1854
+Not Found: /about/index
+"GET /about/index HTTP/1.1" 404 3178
+"GET / HTTP/1.1" 200 2271
+Not Found: /index
+"GET /index HTTP/1.1" 404 3160
+"GET / HTTP/1.1" 200 2200
+"GET /about/ HTTP/1.1" 200 1808
+"GET /about/ HTTP/1.1" 200 1827
+"GET / HTTP/1.1" 200 2200
+"GET /addprod/ HTTP/1.1" 200 2436
+"GET /addprod/ HTTP/1.1" 200 2476
+"GET / HTTP/1.1" 200 2200
+"GET /about/ HTTP/1.1" 200 1827
+"GET / HTTP/1.1" 200 2200
+"GET /addprod/ HTTP/1.1" 200 2476
+"GET / HTTP/1.1" 200 2200
+"GET /addprod/ HTTP/1.1" 200 2531
+"GET / HTTP/1.1" 200 2200
+"GET /addprod/ HTTP/1.1" 200 2544
+"GET / HTTP/1.1" 200 2200
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2200
+"GET /about/ HTTP/1.1" 200 1827
+"GET / HTTP/1.1" 200 2200
+"GET /addprod/ HTTP/1.1" 200 2544
+"GET / HTTP/1.1" 200 2200
+"GET /addprod/ HTTP/1.1" 200 2544
+"GET / HTTP/1.1" 200 2200
+"GET /addprod/ HTTP/1.1" 200 2544
+"POST /addprod/ HTTP/1.1" 200 2616
+"GET / HTTP/1.1" 200 2200
+"GET /get-user-prod/2/4 HTTP/1.1" 200 1529
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2239
+"GET /addprod/ HTTP/1.1" 200 2582
+"GET / HTTP/1.1" 200 2239
+"GET /addprod/ HTTP/1.1" 200 2582
+"GET / HTTP/1.1" 200 2246
+"GET /addcli/ HTTP/1.1" 200 2453
+"POST /addcli/ HTTP/1.1" 200 2575
+"GET / HTTP/1.1" 200 2246
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\forms.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2255
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3531
+"GET /addorder/ HTTP/1.1" 200 2332
+"GET / HTTP/1.1" 200 2255
+"GET /addorder/ HTTP/1.1" 200 2332
+Internal Server Error: /addorder/
+Traceback (most recent call last):
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\views.py", line 84, in orderaddform
+    if form.is_valid():
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\forms.py", line 201, in is_valid
+    return self.is_bound and not self.errors
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\forms.py", line 196, in errors
+    self.full_clean()
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\forms.py", line 433, in full_clean
+    self._clean_fields()
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\forms.py", line 440, in _clean_fields
+    value = bf.initial if field.disabled else bf.data
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\boundfield.py", line 135, in data
+    return self.form._widget_data_value(self.field.widget, self.html_name)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\forms.py", line 220, in _widget_data_value
+    return widget.value_from_datadict(self.data, self.files, html_name)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\widgets.py", line 297, in value_from_datadict
+    return data.get(name)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 623, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\query.py", line 1423, in build_filter
+    arg, value = filter_expr
+ValueError: too many values to unpack (expected 2)
+"POST /addorder/ HTTP/1.1" 500 129179
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\forms.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\forms.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2255
+"GET /addorder/ HTTP/1.1" 200 2332
+"GET / HTTP/1.1" 200 2255
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /addorder/ HTTP/1.1" 200 2332
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2255
+Internal Server Error: /addorder/
+Traceback (most recent call last):
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\views.py", line 97, in orderaddform
+    return render(request, 'app1/add_new_product.html', {'form':form,'message':message,'title':"клиента"})
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1064, in render
+    output = self.filter_expression.resolve(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 715, in resolve
+    obj = self.var.resolve(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 847, in resolve
+    value = self._resolve_lookup(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 914, in _resolve_lookup
+    current = current()
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\utils.py", line 84, in as_p
+    return self.render(self.template_name_p)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\utils.py", line 67, in render
+    context = context or self.get_context()
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\forms.py", line 322, in get_context
+    top_errors = self.non_field_errors().copy()
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\forms.py", line 358, in non_field_errors
+    return self.errors.get(
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\forms.py", line 196, in errors
+    self.full_clean()
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\forms.py", line 433, in full_clean
+    self._clean_fields()
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\forms.py", line 440, in _clean_fields
+    value = bf.initial if field.disabled else bf.data
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\boundfield.py", line 135, in data
+    return self.form._widget_data_value(self.field.widget, self.html_name)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\forms.py", line 220, in _widget_data_value
+    return widget.value_from_datadict(self.data, self.files, html_name)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\widgets.py", line 297, in value_from_datadict
+    return data.get(name)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 623, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\query.py", line 1423, in build_filter
+    arg, value = filter_expr
+ValueError: too many values to unpack (expected 2)
+"GET /addorder/ HTTP/1.1" 500 236549
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\forms.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /addorder/
+Traceback (most recent call last):
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\views.py", line 97, in orderaddform
+    return render(request, 'app1/add_new_product.html', {'form':form,'message':message,'title':"клиента"})
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1064, in render
+    output = self.filter_expression.resolve(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 715, in resolve
+    obj = self.var.resolve(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 847, in resolve
+    value = self._resolve_lookup(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 914, in _resolve_lookup
+    current = current()
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\utils.py", line 84, in as_p
+    return self.render(self.template_name_p)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\utils.py", line 67, in render
+    context = context or self.get_context()
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\forms.py", line 322, in get_context
+    top_errors = self.non_field_errors().copy()
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\forms.py", line 358, in non_field_errors
+    return self.errors.get(
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\forms.py", line 196, in errors
+    self.full_clean()
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\forms.py", line 433, in full_clean
+    self._clean_fields()
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\forms.py", line 440, in _clean_fields
+    value = bf.initial if field.disabled else bf.data
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\boundfield.py", line 135, in data
+    return self.form._widget_data_value(self.field.widget, self.html_name)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\forms.py", line 220, in _widget_data_value
+    return widget.value_from_datadict(self.data, self.files, html_name)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\widgets.py", line 297, in value_from_datadict
+    return data.get(name)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 623, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\query.py", line 1423, in build_filter
+    arg, value = filter_expr
+ValueError: too many values to unpack (expected 2)
+"GET /addorder/ HTTP/1.1" 500 236686
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\forms.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2255
+Internal Server Error: /addorder/
+Traceback (most recent call last):
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\views.py", line 96, in orderaddform
+    form = OrderForm(product_choices)
+  File "C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\forms.py", line 20, in __init__
+    super(OrderForm, self).__init__(*args, **kwargs)
+NameError: name 'args' is not defined
+"GET /addorder/ HTTP/1.1" 500 70251
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\forms.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2255
+"GET /addorder/ HTTP/1.1" 200 2332
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\forms.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2255
+"GET /addorder/ HTTP/1.1" 200 2332
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2255
+"GET /addorder/ HTTP/1.1" 200 2332
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2255
+"GET /addorder/ HTTP/1.1" 200 2332
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /addorder/ HTTP/1.1" 200 2332
+"GET / HTTP/1.1" 200 2255
+"GET /addprod/ HTTP/1.1" 200 2582
+"POST /addprod/ HTTP/1.1" 200 2688
+"GET / HTTP/1.1" 200 2255
+"GET /addorder/ HTTP/1.1" 200 2332
+Watching for file changes with StatReloader
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\forms.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2255
+Internal Server Error: /addorder/
+Traceback (most recent call last):
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\views.py", line 80, in orderaddform
+    logger.info(f'Coin is {product_choices}')
+NameError: name 'product_choices' is not defined
+"GET /addorder/ HTTP/1.1" 500 66144
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /addorder/ HTTP/1.1" 200 2332
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\forms.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2255
+"GET /addorder/ HTTP/1.1" 200 2332
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\forms.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2255
+"GET /addorder/ HTTP/1.1" 200 2806
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2255
+Internal Server Error: /addorder/
+Traceback (most recent call last):
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\views.py", line 94, in orderaddform
+    return render(request, 'app1/add_new_product.html', {'form':form,'message':message,'title':"клиента"})
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1064, in render
+    output = self.filter_expression.resolve(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 715, in resolve
+    obj = self.var.resolve(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 847, in resolve
+    value = self._resolve_lookup(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 914, in _resolve_lookup
+    current = current()
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\utils.py", line 84, in as_p
+    return self.render(self.template_name_p)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\utils.py", line 75, in render
+    return mark_safe(renderer.render(template, context))
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\renderers.py", line 29, in render
+    return template.render(context, request=request).strip()
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1070, in render
+    return render_value_in_context(output, context)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 1047, in render_value_in_context
+    value = str(value)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\html.py", line 420, in <lambda>
+    klass.__str__ = lambda self: mark_safe(klass_str(self))
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\boundfield.py", line 34, in __str__
+    return self.as_widget()
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\boundfield.py", line 94, in as_widget
+    attrs = self.build_widget_attrs(attrs, widget)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\boundfield.py", line 269, in build_widget_attrs
+    widget.use_required_attribute(self.initial)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\widgets.py", line 783, in use_required_attribute
+    and self._choice_has_empty_value(first_choice)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\forms\widgets.py", line 766, in _choice_has_empty_value
+    value, _ = choice
+TypeError: cannot unpack non-iterable Product object
+"GET /addorder/ HTTP/1.1" 500 250618
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2255
+"GET /addorder/ HTTP/1.1" 200 2824
+Internal Server Error: /addorder/
+Traceback (most recent call last):
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\fields\__init__.py", line 2053, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'Rinkiller'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\views.py", line 87, in orderaddform
+    client = get_object_or_404(Сlient, pk = client_name)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 85, in get_object_or_404
+    return queryset.get(*args, **kwargs)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 623, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\query.py", line 1491, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\query.py", line 1318, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\lookups.py", line 341, in get_prep_lookup
+    return super().get_prep_lookup()
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\fields\__init__.py", line 2055, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got 'Rinkiller'.
+"POST /addorder/ HTTP/1.1" 500 139778
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2255
+"GET /addorder/ HTTP/1.1" 200 2824
+"POST /addorder/ HTTP/1.1" 200 2864
+"GET / HTTP/1.1" 200 2255
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2256
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3723
+Internal Server Error: /get-client_orders/
+Traceback (most recent call last):
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\views.py", line 108, in client_orders_form
+    form = client_id()
+UnboundLocalError: local variable 'client_id' referenced before assignment
+"GET /get-client_orders/ HTTP/1.1" 500 66373
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /get-client_orders/
+Traceback (most recent call last):
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\views.py", line 108, in client_orders_form
+    form = client_id()
+UnboundLocalError: local variable 'client_id' referenced before assignment
+"GET /get-client_orders/ HTTP/1.1" 500 66478
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\forms.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /get-client_orders/ HTTP/1.1" 200 2370
+Internal Server Error: /get-client_orders/
+Traceback (most recent call last):
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'endblock'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\views.py", line 106, in client_orders_form
+    return render(request, 'app1/get_orders_of_client.html', {'name':client.name,'title':f"Заказы клиента{client.name}",'orders':orders})
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 967, in do_if
+    nodelist = parser.parse(("endif",))
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 20: 'endblock', expected 'endif'. Did you forget to register or load this tag?
+"POST /get-client_orders/ HTTP/1.1" 500 184316
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /get-client_orders/ HTTP/1.1" 200 2370
+Internal Server Error: /get-client_orders/
+Traceback (most recent call last):
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'endblock'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\views.py", line 107, in client_orders_form
+    return render(request, 'app1/get_orders_of_client.html', {'name':client.name,'title':f"Заказы клиента{client.name}",'orders':orders})
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\defaulttags.py", line 967, in do_if
+    nodelist = parser.parse(("endif",))
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\rinki\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 20: 'endblock', expected 'endif'. Did you forget to register or load this tag?
+"POST /get-client_orders/ HTTP/1.1" 500 184371
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2256
+"GET /get-client_orders/ HTTP/1.1" 200 2370
+"POST /get-client_orders/ HTTP/1.1" 200 1919
+"GET / HTTP/1.1" 200 2256
+"GET /get-client_orders/ HTTP/1.1" 200 2370
+"POST /get-client_orders/ HTTP/1.1" 200 1933
+"GET / HTTP/1.1" 200 2256
+"GET /get-client_orders/ HTTP/1.1" 200 2370
+"POST /get-client_orders/ HTTP/1.1" 200 2583
+"GET / HTTP/1.1" 200 2256
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2271
+"GET /get-all-client/ HTTP/1.1" 200 1926
+"GET / HTTP/1.1" 200 2271
+"GET /get-all-client/ HTTP/1.1" 200 1926
+"GET / HTTP/1.1" 200 2271
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /get-all-client/ HTTP/1.1" 200 3198
+"GET / HTTP/1.1" 200 2271
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\rinki\Desktop\GBLesson\HTTPWEBWirst\Djanga\myproject\app1\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2289
+"GET /get-all-products/ HTTP/1.1" 200 3504
+"GET / HTTP/1.1" 200 2289
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 12064
+"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 13404
+"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12621
+"GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+"GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4527
+"GET /__debug__/render_panel/?store_id=8a0e697214f94af585ddc1567c3093e4&panel_id=HistoryPanel HTTP/1.1" 200 2505
+"GET /static/debug_toolbar/js/history.js HTTP/1.1" 200 3330
+"GET /__debug__/history_refresh/?store_id=8a0e697214f94af585ddc1567c3093e4&exclude_history=True HTTP/1.1" 200 1683
+"GET /about/ HTTP/1.1" 200 11649
+"GET / HTTP/1.1" 200 12064
+"GET /get-all-clients/ HTTP/1.1" 200 13012
+"GET /__debug__/render_panel/?store_id=58c7f3d45c3448fca37936c1597d0372&panel_id=SettingsPanel HTTP/1.1" 200 26679
+"GET /__debug__/render_panel/?store_id=58c7f3d45c3448fca37936c1597d0372&panel_id=SQLPanel HTTP/1.1" 200 22568
+"GET /__debug__/render_panel/?store_id=58c7f3d45c3448fca37936c1597d0372&panel_id=StaticFilesPanel HTTP/1.1" 200 35407
+"GET /__debug__/render_panel/?store_id=58c7f3d45c3448fca37936c1597d0372&panel_id=TemplatesPanel HTTP/1.1" 200 6774
+"GET /__debug__/render_panel/?store_id=58c7f3d45c3448fca37936c1597d0372&panel_id=SignalsPanel HTTP/1.1" 200 2310
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 12065
+"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 13975
